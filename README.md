@@ -1,4 +1,4 @@
-# `do-func-golang-example`
+# `do-functions-go-example`
 
 ## Install
 
