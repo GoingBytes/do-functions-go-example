@@ -3,23 +3,9 @@
 ## Install
 
 ```bash
-git clone https://github.com/egorsmkv/do-func-golang-example
+git clone https://github.com/GoingBytes/do-functions-go-example
 
 doctl serverless install
 
-doctl serverless deploy do-func-golang-example --verbose-build --remote-build
-```
-
-## Development
-
-### Lint
-
-```bash
-golangci-lint run packages/sample/hello
-```
-
-### Test
-
-```bash
-gotestsum -- ./packages/sample/hello
+doctl serverless deploy do-functions-go-example --verbose-build --remote-build
 ```

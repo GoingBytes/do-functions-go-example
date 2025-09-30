@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "gomod"
+    directory: "/packages/sample/hello"
+    schedule:
+      interval: "weekly"
