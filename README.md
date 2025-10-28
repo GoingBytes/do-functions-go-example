@@ -34,7 +34,7 @@ This project includes a sample serverless function written in Go that accepts a 
 
 Before you begin, ensure you have the following installed:
 
-- [Go 1.20](https://golang.org/dl/) or later
+- [Go 1.20](https://golang.org/dl/) or later (CI uses Go 1.25.1 for testing)
 - [DigitalOcean CLI (`doctl`)](https://docs.digitalocean.com/reference/doctl/how-to/install/)
 - A [DigitalOcean account](https://cloud.digitalocean.com/registrations/new) with Functions enabled
 - Git
@@ -192,7 +192,7 @@ Configures the DigitalOcean App Platform deployment:
 
 - **Name**: `go-hello`
 - **Region**: `nyc`
-- **Deploy on Push**: Enabled for `master` branch
+- **Deploy on Push**: Enabled for `master` branch (Note: CI workflow uses `main` branch)
 
 ## Continuous Integration
 
